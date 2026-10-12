@@ -1,0 +1,17 @@
+# Secrets — never commit the real .env (keys live here)
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local Qdrant storage (if run via Docker)
+qdrant_storage/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
